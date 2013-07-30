@@ -7,7 +7,7 @@ use Rack::ReverseProxy do
 end
 
 app = proc do |env|
-  [ 200, {'Content-Type' => 'text/html'}, "b" ]
+  [ 200, {'Content-Type' => 'text/html'}]
 end
 
 run app
